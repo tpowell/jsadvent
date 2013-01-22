@@ -155,7 +155,7 @@ else {
                 ;
             }
             $.each(PINT.calendarInfo, function() {
-                PINT_calendarActivateDay($('a[href=#day' + this.toString() + ']'), false);
+                PINT_calendarActivateDay($('a[href="#day' + this.toString() + '"]'), false);
             });
 
             /** FIND EACH 'ACTIVE' A TAG *****/
